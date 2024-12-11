@@ -1,0 +1,245 @@
+:root {
+    --cor0: #1ab3f0;
+    --cor1: #58bee7;
+    --cor2: #84cbe7;
+    --cor3: #91d6f1;
+    --cor4: #bce8fa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+a.externo {
+    content: '\00A0\1F517';
+}
+
+header {
+    background-image: linear-gradient(to left, var(--cor0), var(--cor3));
+}
+
+header > p {
+    font-size: 1.2em;
+    color: whitesmoke;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 0px 0px 4px, rgba(0, 0, 0, 0.315);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+nav > a {
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    /* color: var(--cor4); */
+}
+
+main img {
+    width: 100%;
+    box-shadow: 3px 5px 4px black;
+    border-radius:10px;
+    border-radius: 10px 20px 30px 40px;
+    border-radius: 10px 30px;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+header > h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 1.8em;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+}
+
+main h2 {
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    list-style: '\2714\00A0\00A0';
+    list-style-position: inside;
+}
+
+main strong {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90%;
+}
+
+aside {
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > h3 {
+    background-color: var(--cor2);
+    color: whitesmoke;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: var(--cor0);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+.aside {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+.outro {
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 8px;
+}
+
+.fora {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+.asidea {
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.foto {
+    width: 40%;
+    box-shadow: 3px 5px 4px black;
+    border-radius:10px;
+    border-radius: 10px 20px 30px 40px;
+    border-radius: 10px 30px;
+    float: left;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tex {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+}
